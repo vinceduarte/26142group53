@@ -2,7 +2,7 @@
 Challenge #3 for the [Florida Hacks with IBM](https://floridahackswithibm.bemyapp.com/) project
 
 ## Developers
-Member 1: Vince Duarte
+Member 1: Vince Duarte merge
 
 Member 2: Jason Lusk
 
