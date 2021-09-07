@@ -4,7 +4,7 @@ Challenge #3 for the [Florida Hacks with IBM](https://floridahackswithibm.bemyap
 ## Developers
 Member 1: Vince Duarte merge
 
-Member 2: Jason Lusk
+Member 2: Jason Lusk Test
 
 Member 3: Aadesh Thirukonda
 
