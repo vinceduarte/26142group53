@@ -6,6 +6,6 @@ Member 1: Vince Duarte
 
 Member 2: Jason Lusk
 
-Member 3: Aadesh Thirukonda
+Member 3: Aadesh Thirukonda Test
 
 Member 4: Kevin Tang
