@@ -19,11 +19,14 @@ Member 4: Kevin Tang
 - Node Package Manager
 ``` npm -v ```
 
-### Tutorial
-
 - Create the application
 ``` npx create-react-app sustainable-fisheries ```
-NOTE: make sure npm is not installed globally or there will be an error with node_modules
+NOTE: make sure npm is not installed globally in root directory or there will be an error with node_modules. There should be a relative local node_modules with the app.
+
+- Install [Routing](https://reactrouter.com/web/guides/quick-start)
+``` yarn add react-router-dom ```
+
+### Tutorial
 
 - Start the app locally
 ``` cd sustainable-fisheries && yarn start ```
