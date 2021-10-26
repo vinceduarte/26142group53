@@ -36,6 +36,10 @@ export default function Forgot() {
                 </div>
             </form>
 
+            <footer id="main-footer">
+            <p>Copyright &copy; 2021 Sustainable Fisheries</p>
+            </footer>
+
             
         </div>
         
