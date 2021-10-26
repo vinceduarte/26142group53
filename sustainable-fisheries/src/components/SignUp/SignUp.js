@@ -1,11 +1,14 @@
 import React from 'react';
 import './SignUp.css'
+import logo from '../fish.jpg';
+console.log(logo);
 
 
 export default function SignUp() {
     return (
        
         <div className="login-wrapper center">
+        <img src={logo} alt="Logo" width="200"/>
         
       
             <form>
@@ -29,7 +32,7 @@ export default function SignUp() {
                 </div>
                 Already have an account? Log in:
                 <div className="button">
-                    <button type="submit">Sign Up</button>
+                    <button type="submit">Log In</button>
                 </div>
                 Forgot Password?
                 <div className="button">
