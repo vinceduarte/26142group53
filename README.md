@@ -32,3 +32,13 @@ NOTE: make sure npm is not installed globally in root directory or there will be
 
 - Start the app locally
 ``` cd sustainable-fisheries && yarn start ```
+
+Setup the server configuration
+``` npm install mongodb express cors dotenv ```
+
+Update the config.env file with your credentials:
+Replace ``` <username> ``` and ``` <password> ```
+
+Install the nodemon module to run the server
+``` sudo npm install -g nodemon ```
+``` nodemon server ```
