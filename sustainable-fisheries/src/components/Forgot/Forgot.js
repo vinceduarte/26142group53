@@ -1,11 +1,14 @@
 import React from 'react';
 import './Forgot.css'
+import logo from '../fish.jpg';
+console.log(logo);
 
 
 export default function Forgot() {
     return (
        
         <div className="login-wrapper center">
+        <img src={logo} alt="Logo" width="200"/>
             
       
             <form>
@@ -33,9 +36,7 @@ export default function Forgot() {
                 </div>
             </form>
 
-            <footer id="main-footer">
-            <p>Copyright &copy; 2021 Sustainable Fisheries</p>
-            </footer>
+            
         </div>
         
        

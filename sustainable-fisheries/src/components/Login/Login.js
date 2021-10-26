@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './fish.jpg';
+import logo from '../fish.jpg';
 import './Login.css'
 
 console.log(logo);
