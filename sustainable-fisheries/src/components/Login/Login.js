@@ -15,7 +15,7 @@ export default function Login() {
                         <h1>Sustainable Fisheries</h1>
                     </div>
                 </header>
-                <h2>Welcome back!</h2>
+                <h2>Welcome Back!</h2>
                 <div className="input">
                     <label for="username">Username</label>
                     <input id="username" type="text" />
@@ -27,8 +27,10 @@ export default function Login() {
                     <button type="submit">Submit</button>
                 </div>
             </form>
-            Don't have an account?
-            <a href="./signup">Sign Up</a>
+            <div className="route">
+                Don't have an account?
+                <a className="route-link" href="./signup">Sign Up</a>
+            </div>
             <footer id="main-footer">
                 <p>Copyright &copy; 2021 Sustainable Fisheries</p>
             </footer>

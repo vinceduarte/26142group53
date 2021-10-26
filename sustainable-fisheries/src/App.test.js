@@ -12,13 +12,13 @@ test('renders sustainable fisheries home page without login token', () => {
 
 test('renders successful sign up page', () => {
   render(<SignUp />);
-  const linkElement = screen.getByText("Sign Up:");
+  const linkElement = screen.getByText("Create an Account");
   expect(linkElement).toBeInTheDocument();
 });
 
 test('renders successful login page', () => {
   render(<Login />);
-  const linkElement = screen.getByText("Sign In:");
+  const linkElement = screen.getByText("Welcome Back!");
   expect(linkElement).toBeInTheDocument();
 });
 
