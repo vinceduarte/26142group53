@@ -18,6 +18,8 @@ Member 4: Kevin Tang
 
 - Node Package Manager
 ``` npm -v ```
+if you haven't already, 
+``` cd sustainable-fisheries && npm install ```
 
 - Create the application
 ``` npx create-react-app sustainable-fisheries ```
