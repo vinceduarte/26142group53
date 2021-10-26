@@ -9,16 +9,13 @@ export default function SignUp() {
 
         <div className="login-wrapper center">
             <img src={logo} alt="Logo" width="200" />
-
-
             <form>
                 <header id="main-header">
                     <div class="container">
                         <h1>Sustainable Fisheries</h1>
                     </div>
-
                 </header>
-                <h1 id="sign-in">Sign Up: </h1>
+                <h2>Create an Account</h2>
                 <div className="input">
                     <label for="username">Username</label>
                     <input id="username" type="text" />
@@ -27,18 +24,17 @@ export default function SignUp() {
                     <label for="password">Confirm Password</label>
                     <input id="confirmpassword" type="password" />
                 </div>
-                <a href="./forgotpassword"> Forgot Password? </a>
+                <a href="./forgotpassword">Forgot Password?</a>
                 <div className="button">
                     <button type="submit">Submit</button>
                 </div>
             </form>
-
             Already have an account?
-            <a href="./login"> Login </a>
-
+            <a href="./login">Login</a>
             <footer id="main-footer">
                 <p>Copyright &copy; 2021 Sustainable Fisheries</p>
             </footer>
         </div>
+        
     );
 }

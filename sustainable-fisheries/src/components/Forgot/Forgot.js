@@ -9,8 +9,6 @@ export default function Forgot() {
 
         <div className="login-wrapper center">
             <img src={logo} alt="Logo" width="200" />
-
-
             <form>
                 <header id="main-header">
                     <div class="container">
@@ -18,7 +16,7 @@ export default function Forgot() {
                     </div>
 
                 </header>
-                <h1 id="forgot-password">Forgot Password? </h1>
+                <h2>Forgot password?</h2>
                 <div className="input">
                     <label for="username">Username</label>
                     <input id="username" type="text" />
@@ -27,16 +25,14 @@ export default function Forgot() {
                     <button type="submit">Submit</button>
                 </div>
             </form>
-
             Don't have an account?
-            <a href="./signup"> Sign Up </a>
-
+            <a href="./signup">Sign Up</a>
             Return to
-            <a href="./login"> Login </a>
-
+            <a href="./login">Login</a>
             <footer id="main-footer">
                 <p>Copyright &copy; 2021 Sustainable Fisheries</p>
             </footer>
         </div>
+        
     );
 }
