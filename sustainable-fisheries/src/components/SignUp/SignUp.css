@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #6d97b4;
 }
 .center {
@@ -28,27 +28,48 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     border-radius: 15px;
     width: 300px;
 }
-h1, h2{
+
+h1, h2 {
     color: #28465c;
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
 }
-input{
+
+input {
     border-radius: 5px;
 }
-button{
+
+button {
     border-radius: 5px;
     color:#000000;
     background-color:#ec7a28;
+    margin: 0 auto;
+    display: block;
 }
-div{
+
+div {
     white-space: pre-wrap;
 }
-#main-footeR{
+
+.route {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.route-link {
+    margin-left: 2%;
+}
+
+#main-footer {
     width:100%;
     float:none;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    text-align: center;
 }

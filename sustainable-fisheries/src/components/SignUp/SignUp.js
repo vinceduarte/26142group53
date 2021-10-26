@@ -24,17 +24,18 @@ export default function SignUp() {
                     <label for="password">Confirm Password</label>
                     <input id="confirmpassword" type="password" />
                 </div>
-                <a href="./forgotpassword">Forgot Password?</a>
                 <div className="button">
                     <button type="submit">Submit</button>
                 </div>
             </form>
-            Already have an account?
-            <a href="./login">Login</a>
+            <div className="route">
+                Already have an account? 
+                <a className="route-link" href="./login">Login</a>
+            </div>
             <footer id="main-footer">
                 <p>Copyright &copy; 2021 Sustainable Fisheries</p>
             </footer>
         </div>
-        
+
     );
 }
