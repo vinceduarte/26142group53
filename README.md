@@ -34,7 +34,7 @@ if you haven't already,
 
 
 - Install [Routing](https://reactrouter.com/web/guides/quick-start)
-``` yarn add react-router-dom ```
+``` npm install react-router@5.3.0 ```
 
 ### Tutorial
 
