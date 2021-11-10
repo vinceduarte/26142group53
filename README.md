@@ -18,12 +18,20 @@ Member 4: Kevin Tang
 
 - Node Package Manager
 ``` npm -v ```
-if you haven't already, 
-``` cd sustainable-fisheries && npm install ```
 
 - Create the application
 ``` npx create-react-app sustainable-fisheries ```
 NOTE: make sure npm is not installed globally in root directory or there will be an error with node_modules. There should be a relative local node_modules with the app.
+
+if you haven't already, 
+``` cd sustainable-fisheries && npm install ```
+
+- Install MUI Elements
+- ``` yarn add @material-ui/icons ```
+- ``` yarn add @material-ui/core ```
+- ``` yarn add fontsource-roboto ```
+
+
 
 - Install [Routing](https://reactrouter.com/web/guides/quick-start)
 ``` yarn add react-router-dom ```
