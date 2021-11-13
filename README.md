@@ -49,4 +49,7 @@ Replace ``` <username> ``` and ``` <password> ```
 
 Install the nodemon module to run the server
 ``` sudo npm install -g nodemon ```
-``` nodemon server ```
+``` cd server && nodemon server ```
+
+If there is a bug with the server TextEncoder, add this line to node_modules/whatwg-url/dist/encoding.js
+``` const {TextDecoder, TextEncoder} = require("util"); ```
