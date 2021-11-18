@@ -5,6 +5,8 @@ import Forgot from './components/Forgot/Forgot';
 import SignUp from './components/SignUp/SignUp';
 import Home from './components/Home/Home';
 import Profile from './components/Profile/Profile';
+import Single from './components/single/Single';
+import Write from './components/Write/Write';
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
   if(!token) {
     return (
       <BrowserRouter>
-      <Login setToken={setToken} />
+      
       <Switch>
         <Route path="/login">
           <Login />
@@ -24,6 +26,19 @@ function App() {
         </Route>
         <Route path="/signup">
           <SignUp />
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+
+        <Route path="/profile">
+          <Profile />
+        </Route>
+        <Route path="/write">
+          <Write />
+        </Route>
+        <Route path="/post/:postId">
+          <Single />
         </Route>
       </Switch>
     </BrowserRouter>
