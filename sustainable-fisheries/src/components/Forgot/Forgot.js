@@ -42,7 +42,7 @@ export default function Forgot() {
         <ThemeProvider theme={theme}>
         <div className="login-wrapper center">
             <img src={logo} alt="Logo" width="200" />
-            <form>
+            <form >
                 <header id="main-header">
                     <div class="container">
                         <h1>Sustainable Fisheries</h1>

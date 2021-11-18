@@ -52,7 +52,7 @@ export default function Login() {
         
         <div className="login-wrapper center">
             <img src={logo} alt="Logo" width="200" />
-            <form>
+            <form action="/user/login"  method="POST">
                 <header id="main-header">
                     <div class="container">
                         <h1>Sustainable Fisheries</h1>

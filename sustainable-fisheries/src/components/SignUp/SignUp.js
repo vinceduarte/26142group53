@@ -43,32 +43,45 @@ export default function SignUp() {
         <ThemeProvider theme={theme}>
         <div className="login-wrapper center">
             <img src={logo} alt="Logo" width="200" />
-            <form>
+            <form action="/user/signup" method="POST">
                 <header id="main-header">
                     <div class="container">
                         <h1>Sustainable Fisheries</h1>
                     </div>
                 </header>
                 <h2>Create an Account</h2>
-                <div className="input">
-                <TextField
-                varaint="filled"
-                color="secondary"
-                type="username"
-                label="Username:"        
-                />
-                <TextField
-                varaint="filled"
-                color="secondary"
-                type="password"
-                label="Password:"        
-                />
-                <TextField
-                varaint="filled"
-                color="secondary"
-                type="password"
-                label="Confirm Password:"        
-                />
+                <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            placeholder="Enter Email"
+            value="<%= typeof email != 'undefined' ? email : '' %>"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="form-control"
+            placeholder="Create Password"
+            value="<%= typeof password != 'undefined' ? password : '' %>"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="password"
+            id="password2"
+            name="password2"
+            class="form-control"
+            placeholder="Confirm Password"
+            value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+          />
                 </div>
                 <div className="button">
                 <Button color="primary" type="submit" variant = "contained" size = "small">
