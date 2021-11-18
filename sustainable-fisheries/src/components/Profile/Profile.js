@@ -12,37 +12,37 @@ import MenuIcon from '@material-ui/icons/Menu'
 export default function Profile() {
     return (
         <div>
-        <AppBar>
-        <ToolBar>
+            <AppBar>
+                <ToolBar>
 
 
-        <IconButton>
-        <MenuIcon />
-        </IconButton>
+                    <IconButton>
+                        <MenuIcon />
+                    </IconButton>
 
-            <h2>
-            Sustainable Fisheries
-            </h2>
-            <Button href="./home">
-            Home
-            </Button>
-            <Button href="./Profile">
-            Edit Profile
-            </Button>
-        </ToolBar>
+                    <h2>
+                        Sustainable Fisheries
+                    </h2>
+                    <Button href="./home">
+                        Home
+                    </Button>
+                    <Button href="./Profile">
+                        Edit Profile
+                    </Button>
+                </ToolBar>
 
 
 
-    </AppBar>
-   
-        
+            </AppBar>
+
+
 
 
         </div>
-        
 
 
 
-       
+
+
     );
 }
