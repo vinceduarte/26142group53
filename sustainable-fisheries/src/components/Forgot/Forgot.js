@@ -1,6 +1,6 @@
 import React from 'react';
 import './Forgot.css'
-import logo from '../fish.jpg';
+import logo from '../images/fish.jpg';
 import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'
 import { makeStyles, ThemeProvider, createTheme } from '@material-ui/core/styles'

@@ -37,7 +37,7 @@ function App() {
         <Route path="/write">
           <Write />
         </Route>
-        <Route path="/post/:postId">
+        <Route path="/post/2">
           <Single />
         </Route>
       </Switch>

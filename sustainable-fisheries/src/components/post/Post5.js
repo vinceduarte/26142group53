@@ -1,5 +1,5 @@
 import "./Post.css"
-import logo from '../images/fish.jpg';
+import logo from '../images/Post5.jpg';
 
 console.log(logo);
 
@@ -11,12 +11,12 @@ export default function Post(){
             <div className="postInfo">
 
                 <div className="postCategories">
-                    <span className="postCategory">Fish</span>
-                    <span className="postCategory">Fishing Gear</span>
+                <span className="postCategory">Caught Fish</span>
+
                 </div>
-                <span className="postTitle">Testing</span>
+                <span className="postTitle"><a href="">Red fish in Vilano Beach, St. Augustine</a></span>
                 <hr/>
-                <span className="postDate">1 hour ago</span>
+                <span className="postDate">August 2021</span>
             </div>
             <p className="postDescription">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus quis purus ut vehicula. Suspendisse potenti. 
