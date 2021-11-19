@@ -47,13 +47,20 @@ Setup the server configuration
 Update the config.env file with your credentials:
 Replace ``` <username> ``` and ``` <password> ```
 
-Install the nodemon module to run the server
-``` sudo npm install -g nodemon ```
-``` cd server && nodemon server ```
-
 If there is a bug with the server TextEncoder, add this line to node_modules/whatwg-url/dist/encoding.js
 ``` const {TextDecoder, TextEncoder} = require("util"); ```
 
 Git Authentication VS Code
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 ``` git remote set-url origin https://<TOKEN>@github.com/<user_name>/<repo_name>.git ```
+
+Install dependencies for the Backend server
+``` cd sustainable-fisheries/server ```
+``` npm i bcryptjs body-parser concurrently express is-empty jsonwebtoken mongoose passport passport-jwt validator ```
+
+Install the nodemon module to run the server
+``` sudo npm install -g nodemon ```
+``` nodemon server ```
+
+Install Postman for API testing
+https://www.postman.com/downloads/

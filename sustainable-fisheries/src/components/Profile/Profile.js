@@ -9,9 +9,6 @@ console.log(logo);
 
 export default function Profile() {
     return (
-
-        
-        
         <div className="profile">
        
         
@@ -42,7 +39,6 @@ export default function Profile() {
                     <input type="password"></input>
                     <button className="profileSubmit">Update</button>
 
-
                 </form>
 
 
@@ -50,15 +46,13 @@ export default function Profile() {
             <Sidebar/>
             
      
-   
-        
 
 
         </div>
-        
 
 
 
-       
+
+
     );
 }
