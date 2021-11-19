@@ -1,13 +1,8 @@
-import React from 'react';
 import './Profile.css'
-import Button from '@material-ui/core/Button'
-import TextField from '@material-ui/core/TextField'
-
-
-import AppBar from '@material-ui/core/AppBar'
-import ToolBar from '@material-ui/core/Toolbar'
-import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/icons/Menu'
+import Sidebar from '../sidebar/Sidebar'
+import NavBar from '../NavBar/NavBar'
+import logo from '../fish.jpg';
+console.log(logo);
 
 export default function Profile() {
     return (
