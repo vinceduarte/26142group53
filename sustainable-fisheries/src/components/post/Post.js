@@ -1,5 +1,5 @@
 import "./Post.css"
-import logo from '../fish.jpg';
+import logo from '../images/fish.jpg';
 
 console.log(logo);
 
