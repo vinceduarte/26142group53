@@ -1,5 +1,5 @@
 import './Write.css'
-import logo from '../fish.jpg';
+import logo from '../images/fish.jpg';
 import NavBar from '../NavBar/NavBar'
 import Sidebar from '../sidebar/Sidebar'
 console.log(logo);

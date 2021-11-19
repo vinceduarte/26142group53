@@ -7,6 +7,7 @@ import MenuIcon from '@material-ui/icons/Menu'
 import HomeIcon from '@material-ui/icons/Home'
 import AccountCircle from '@material-ui/icons/AccountCircle'
 import CreateIcon from '@material-ui/icons/Create'
+import ExitToApp from '@material-ui/icons/ExitToApp'
 
 
 export default function NavBar(){
@@ -29,6 +30,9 @@ export default function NavBar(){
                     </IconButton>
                     <IconButton classname="icons" href="../write" edge="end" size="large" color="inherit" edge="end">
                         <CreateIcon />
+                    </IconButton>
+                    <IconButton classname="icons"  edge="end" size="large" color="inherit" edge="end">
+                        <ExitToApp />
                     </IconButton>
         </ToolBar>
     </AppBar>

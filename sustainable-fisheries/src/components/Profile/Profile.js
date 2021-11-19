@@ -1,7 +1,7 @@
 import './Profile.css'
 import Sidebar from '../sidebar/Sidebar'
 import NavBar from '../NavBar/NavBar'
-import logo from '../fish.jpg';
+import logo from '../images/fish.jpg';
 console.log(logo);
 
 

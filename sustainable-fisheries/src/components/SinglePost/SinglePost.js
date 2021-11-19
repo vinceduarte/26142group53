@@ -1,6 +1,13 @@
 import "./SinglePost.css"
-
-import logo from '../fish.jpg';
+import logo from '../images/Post2.jpg';
+import AppBar from '@material-ui/core/AppBar'
+import ToolBar from '@material-ui/core/ToolBar'
+import IconButton from '@material-ui/core/IconButton'
+import MenuIcon from '@material-ui/icons/Menu'
+import Typography from '@material-ui/core/Typography'
+import HomeIcon from '@material-ui/icons/Home'
+import AccountCircle from '@material-ui/icons/AccountCircle'
+import NavBar from '../NavBar/NavBar'
 console.log(logo);
 
 
@@ -12,7 +19,7 @@ export default function SinglePost(){
             <div className="singlePostWrapper">
                 <img className="singlePostImg" src={logo} />
 
-                <h1 className="singlePostTitle">Test Title
+                <h1 className="singlePostTitle">Summer Fishing Trip in the Atlantic
                 
                     <div className="singlePostEdit">
                     <i className="singlePostIcon far fa-edit"></i>
@@ -21,27 +28,15 @@ export default function SinglePost(){
                     </div>
                 </h1>
                 <div className="singlePostInfo">
-                <span className="singlePostAuthor">Author: <b>Jason Lusk</b></span>
-                <span className="singlePostDate">1 hour ago</span>
+                <span className="singlePostAuthor">Author: <b>pstaples12</b></span>
+                <span className="singlePostDate">Summer 2021</span>
                 
                 
                 </div>
                 <p className="singlePostDescription"> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus quis purus ut vehicula. 
-                Suspendisse potenti. Vestibulum euismod posuere ante sit amet laoreet. Nullam commodo nulla vel purus viverra, ut rutrum dui venenatis. 
-                Suspendisse blandit et erat in rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                Aenean augue ex, mollis nec dapibus in, ornare sit amet purus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus quis purus ut vehicula. 
-                Suspendisse potenti. Vestibulum euismod posuere ante sit amet laoreet. Nullam commodo nulla vel purus viverra, ut rutrum dui venenatis. 
-                Suspendisse blandit et erat in rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                Aenean augue ex, mollis nec dapibus in, ornare sit amet purus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus quis purus ut vehicula. 
-                Suspendisse potenti. Vestibulum euismod posuere ante sit amet laoreet. Nullam commodo nulla vel purus viverra, ut rutrum dui venenatis. 
-                Suspendisse blandit et erat in rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                Aenean augue ex, mollis nec dapibus in, ornare sit amet purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus quis purus ut vehicula. 
-                Suspendisse potenti. Vestibulum euismod posuere ante sit amet laoreet. Nullam commodo nulla vel purus viverra, ut rutrum dui venenatis. 
-                Suspendisse blandit et erat in rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                Aenean augue ex, mollis nec dapibus in, ornare sit amet purus.
+                I caught this FISHNAME during my summer fishing trip this year. We were so far out but it was so worth it for this big one.
+                I thought my rod was going to break, but I finally got it! This is definitely my biggest catch of all time, and it is going in the 
+                books as a good one.
                 </p>
                 
         
