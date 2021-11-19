@@ -1,41 +1,51 @@
-import React from 'react';
 import './Profile.css'
-import Button from '@material-ui/core/Button'
-import TextField from '@material-ui/core/TextField'
+import Sidebar from '../sidebar/Sidebar'
+import NavBar from '../NavBar/NavBar'
+import logo from '../fish.jpg';
+console.log(logo);
 
 
-import AppBar from '@material-ui/core/AppBar'
-import ToolBar from '@material-ui/core/Toolbar'
-import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/icons/Menu'
+
 
 export default function Profile() {
     return (
-        <div>
-            <AppBar>
-                <ToolBar>
+        <div className="profile">
+       
+        
+            <div className="profileWrapper">
+            <div className = "bar">
+            <NavBar/>
+            </div>
+                <div className="profileTitle">
+                    <span className="profileUpdateTitle">Update your profile</span>
+                    <span className="profileDeleteTitle">Delete your profile</span>
+                </div>
+                <form className="profileForm">
+                    <label>Profile Picture</label>
+                    <div className="profilePicture">
+                    <img 
+                    src={logo} 
+                    />
+                    <label htmlFor="fileInput">
+                        <i className="profilePictureIcon far fa-user-circle"></i>
+                    </label>
+                    <input type="file" id="fileInput" style={{display:"none"}}></input>
+                    </div>
+                    <label>Username</label>
+                    <input type="text" placeholder="Jason"></input>
+                    <label>Email</label>
+                    <input type="email" placeholder="Jason@gmail.com"></input>
+                    <label>Password</label>
+                    <input type="password"></input>
+                    <button className="profileSubmit">Update</button>
+
+                </form>
 
 
-                    <IconButton>
-                        <MenuIcon />
-                    </IconButton>
-
-                    <h2>
-                        Sustainable Fisheries
-                    </h2>
-                    <Button href="./home">
-                        Home
-                    </Button>
-                    <Button href="./Profile">
-                        Edit Profile
-                    </Button>
-                </ToolBar>
-
-
-
-            </AppBar>
-
-
+                </div>
+            <Sidebar/>
+            
+     
 
 
         </div>

@@ -1,0 +1,12 @@
+.NavBar{
+    color:white;
+}
+
+
+.icons{
+    float:right;
+}
+
+.home{
+    display: flex;
+}
