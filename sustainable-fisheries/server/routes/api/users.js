@@ -3,11 +3,13 @@ const router = express.Router();
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const keys = require("../../config/keys");
+const passport = require('passport')
 // Load input validation
 const validateRegisterInput = require("../../validation/signup");
 const validateLoginInput = require("../../validation/login");
 // Load User model
 const User = require("../../models/User");
+const { Redirect } = require("react-router");
 
 // @route POST api/users/signup
 // @desc Register user
@@ -83,6 +85,7 @@ router.post("/login", (req, res) => {
               });
             }
           );
+         
         } else {
           return res
             .status(400)
@@ -91,5 +94,8 @@ router.post("/login", (req, res) => {
       });
     });
   });
+ 
 
+  
+  
   module.exports = router;
