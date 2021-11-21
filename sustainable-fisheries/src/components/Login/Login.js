@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../fish.jpg';
+import logo from '../images/fish.jpg';
 import './Login.css'
 import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'

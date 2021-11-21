@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Redirect } from 'react-router'
 import Login from './components/Login/Login';
 import Forgot from './components/Forgot/Forgot';
 import SignUp from './components/SignUp/SignUp';
@@ -30,29 +31,30 @@ function App() {
     </BrowserRouter>
     )
   }
-  
+ 
   // if a login token is found
   return (
-    <div className="wrapper">
-      <h1>Sustainable Fisheries</h1>
+      
       <BrowserRouter>
-      <Home/>
+      
+      <div className="wrapper">
+      <h1>Sustainable Fisheries</h1>
+    
+
         <Switch>
-          <Route path="/home">
-          <Home />
-        </Route>
-        <Route path="/profile">
-          <Profile />
-        </Route>
-        <Route path="/write">
-          <Write />
-        </Route>
-        <Route path="/post/2">
-          <Single />
-        </Route>
+         
+        <Route path ="/" exact component={Home}/>
+        <Route path ="/home" exact component={Home}/>
+        <Route path="/profile" exact component={Profile}/>
+          
+        <Route path="/write" exact component={Write}/>
+         
+        <Route path="/post/2" exact component={Single}/>
+         
         </Switch>
+        </div>
       </BrowserRouter>
-    </div>
+   
   );
 }
 
