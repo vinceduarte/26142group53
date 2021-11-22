@@ -8,7 +8,7 @@ const validateRegisterInput = require("../../validation/signup");
 const validateLoginInput = require("../../validation/login");
 // Load User model
 const User = require("../../models/User");
-const { Redirect } = require("react-router");
+
 
 // @route POST api/users/signup
 // @desc Register user
