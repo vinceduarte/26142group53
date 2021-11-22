@@ -15,9 +15,9 @@ function App() {
   if (!token) {
     return (
       <BrowserRouter>
-        <Login setToken={setToken} />
+        {/* // <Login setToken={setToken} /> */}
         <Switch>
-          <Route path="/login">
+          <Route path="/" exact component={Login}>
             <Login setToken={setToken} />
           </Route>
           <Route path="/forgotpassword">

@@ -67,7 +67,7 @@ export default function Forgot() {
             </div>
             <div className="route">
                 Return to
-                <a className="route-link" href="./login">Login</a>
+                <a className="route-link" href="./">Login</a>
             </div>
             <footer id="main-footer">
                 <p>Copyright &copy; 2021 Sustainable Fisheries</p>
