@@ -93,7 +93,11 @@ router.post("/login", (req, res) => {
     });
   });
  
-
+// @route GET api/users/logout
+// @desc Login user and return JWT token
+// @access Public
+router.get("/logout", (req, res) => {
+  return res.status(200);
+});
   
-  
-  module.exports = router;
+module.exports = router;
