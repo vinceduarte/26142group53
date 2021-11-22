@@ -23,8 +23,10 @@ export default function Post(){
                 <span className="postDate">A week ago</span>
             </div>
             <p className="postDescription">
-            I caught this bass at my neighborhood pond. It took me a while, but after a couple bites it finally
-            popped up. I will never forget this moment!
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus quis purus ut vehicula. Suspendisse potenti. 
+            Vestibulum euismod posuere ante sit amet laoreet. Nullam commodo nulla vel purus viverra, ut rutrum dui venenatis. 
+            Suspendisse blandit et erat in rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+            Aenean augue ex, mollis nec dapibus in, ornare sit amet purus.
            
             
             </p>

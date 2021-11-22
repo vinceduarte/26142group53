@@ -45,9 +45,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/home" exact component={Home} />
           <Route path="/profile" exact component={Profile} />
-
           <Route path="/write" exact component={Write} />
-
           <Route path="/post/2" exact component={Single} />
 
         </Switch>

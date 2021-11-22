@@ -19,9 +19,10 @@ export default function Post(){
                 <span className="postDate">Summer 2021</span>
             </div>
             <p className="postDescription">
-            I caught this FISHNAME during my summer fishing trip this year. We were so far out but it was so worth it for this big one.
-            I thought my rod was going to break, but I finally got it! This is definitely my biggest catch of all time, and it is going in the 
-            books as a good one.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus quis purus ut vehicula. Suspendisse potenti. 
+            Vestibulum euismod posuere ante sit amet laoreet. Nullam commodo nulla vel purus viverra, ut rutrum dui venenatis. 
+            Suspendisse blandit et erat in rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+            Aenean augue ex, mollis nec dapibus in, ornare sit amet purus.
            
             
             </p>
