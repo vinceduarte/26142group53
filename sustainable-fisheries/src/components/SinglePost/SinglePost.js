@@ -1,13 +1,5 @@
 import "./SinglePost.css"
 import logo from '../images/Post2.jpg';
-import AppBar from '@material-ui/core/AppBar'
-import ToolBar from '@material-ui/core/ToolBar'
-import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/icons/Menu'
-import Typography from '@material-ui/core/Typography'
-import HomeIcon from '@material-ui/icons/Home'
-import AccountCircle from '@material-ui/icons/AccountCircle'
-import NavBar from '../NavBar/NavBar'
 console.log(logo);
 
 

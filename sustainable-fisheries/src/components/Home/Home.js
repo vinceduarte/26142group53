@@ -1,7 +1,6 @@
 import React from 'react';
 import Posts from '../posts/Posts'
 import Sidebar from '../sidebar/Sidebar'
-import Write from '../Write/Write'
 import './Home.css'
 import NavBar from '../NavBar/NavBar'
 

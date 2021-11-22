@@ -9,6 +9,7 @@ const validateLoginInput = require("../../validation/login");
 // Load User model
 const User = require("../../models/User");
 
+
 // @route POST api/users/signup
 // @desc Register user
 // @access Public
@@ -91,5 +92,8 @@ router.post("/login", (req, res) => {
       });
     });
   });
+ 
 
+  
+  
   module.exports = router;
