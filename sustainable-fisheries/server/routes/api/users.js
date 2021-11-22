@@ -3,7 +3,6 @@ const router = express.Router();
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const keys = require("../../config/keys");
-const passport = require('passport')
 // Load input validation
 const validateRegisterInput = require("../../validation/signup");
 const validateLoginInput = require("../../validation/login");
@@ -85,7 +84,6 @@ router.post("/login", (req, res) => {
               });
             }
           );
-         
         } else {
           return res
             .status(400)
