@@ -42,16 +42,13 @@
     height:25vh;
 }
 .writeSubmit{
-    position:absolute;
-    top:25px;
-    right:250px;
     color:white;
     background-color: #ec7a28;
     padding:10px;
     border:none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 25px;
 
 }
 .writeFormGroup{
