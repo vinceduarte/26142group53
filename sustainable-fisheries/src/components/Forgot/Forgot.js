@@ -3,25 +3,22 @@ import './Forgot.css'
 import logo from '../images/fish.jpg';
 import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'
-import { makeStyles, ThemeProvider, createTheme } from '@material-ui/core/styles'
-import { orange, blue } from '@material-ui/core/colors'
-
-
-import Typography from '@material-ui/core/Typography'
+import { ThemeProvider, createTheme } from '@material-ui/core/styles'
+import { blue } from '@material-ui/core/colors'
 console.log(logo);
 
-const useStyles = makeStyles({
-    root: {
-        border:0,
-        background: 'linear-gradient(45deg, #ec7a28, #6d97b4)',
-        borderRadius:15,
-        color: 'black',
-        padding: '5px 5px',
-        marginTop: 15,
-        marginBottom: 15
+// const useStyles = makeStyles({
+//     root: {
+//         border:0,
+//         background: 'linear-gradient(45deg, #ec7a28, #6d97b4)',
+//         borderRadius:15,
+//         color: 'black',
+//         padding: '5px 5px',
+//         marginTop: 15,
+//         marginBottom: 15
 
-    }
-})
+//     }
+// })
 
 const theme = createTheme({
     palette: {
@@ -31,10 +28,10 @@ const theme = createTheme({
     }
 })
 
-function ButtonStyled(){
-    const classes = useStyles();
-    return <Button className={classes.root}>Submit</Button>
-}
+// function ButtonStyled(){
+//     const classes = useStyles();
+//     return <Button className={classes.root}>Submit</Button>
+// }
 
 
 export default function Forgot() {
